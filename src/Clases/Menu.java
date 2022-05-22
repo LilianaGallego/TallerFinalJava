@@ -1,19 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Clases;
 
 import java.util.Scanner;
 
 /**
- *
- * @author palig
+ * Esta clase contiene los atributos y metodos de un Menu
+
+ * @author: Martha Liliana Gallego Murillo
+
+ * @version: 1.0
+
  */
 public class Menu {
+    // Se crea un objeto lectura de la clase Scanner para acceder a sus metodos
     Scanner lectura = new Scanner(System.in);
-
+    
+    /**
+     * Metodo para mostrar  por consola el menu inicial del programa
+     */
     public void bienvenida() {
 
         System.out.println("CALCULADORA ACUMULATIVA");
@@ -25,6 +28,9 @@ public class Menu {
 
     }
     
+    /**
+     * Metodo para mostrar por consola las operaciones disponibles del programa
+     */
     public void menuOperacion(){
         System.out.println("\nEstas son las operaciones disponibles");
         System.out.println("|OPERACION  | SIGNO|");
